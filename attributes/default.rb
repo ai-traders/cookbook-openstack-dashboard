@@ -30,6 +30,8 @@ default['openstack']['dashboard']['server_type'] = 'apache2'
 
 default['openstack']['dashboard']['debug'] = false
 
+default['openstack']['dashboard']['session_timeout'] = 3600
+
 # The Keystone role used by default for users logging into the dashboard
 default['openstack']['dashboard']['keystone_default_role'] = '_member_'
 
